@@ -18,11 +18,14 @@ main header .header-top
 }
 header menu
 {
-   
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+menu .wrapper
+{
+    width: 900px;
+    display: flex;
     align-items: center;
-    padding: 0 5vw;
 }
 #logo
 {
