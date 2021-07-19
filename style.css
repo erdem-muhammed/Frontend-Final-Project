@@ -1,3 +1,4 @@
+#272727
 *
 {
     box-sizing: border-box;
@@ -21,9 +22,9 @@ header menu
     display: flex;
     justify-content: center;
 }
-menu .wrapper
+menu>.wrapper
 {
-    width: 900px;
+    width: 1000px;
     display: flex;
     align-items: center;
 }
@@ -99,4 +100,39 @@ menu .menu-main
 #slideNext
 {
     right: 3vw;
+}
+.services
+{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.services>.services-wrapper
+{
+    width: 300px;
+    text-align: center;
+}
+.services-wrapper
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.services-wrapper>.border-radius
+{
+    border-radius: 50%;
+    background-color: rgb(214, 214, 214);
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border-radius>img
+{
+    height: 64px;
 }
