@@ -156,6 +156,13 @@ menu .menu-right
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: -1px 9px 3px -1px rgb(57 57 57 / 55%);
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.border-radius:hover
+{
+    transform: scale(1.1);
 }
 .border-radius>img
 {
