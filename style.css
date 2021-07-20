@@ -46,25 +46,31 @@ menu>.wrapper
     width: 1000px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #logo
 {
     width: 200px;
     height: 60px;
 }
-menu .menu-main
+menu .menu-right
 {
-    width: 900px;
+    
     display: flex;
     justify-content: space-between;
     padding: 0 10vw;
 }
-.menu-main a
+.menu-right a
 {
     text-decoration: none;
     font-size: 1.4em;
     font-weight: bold;
     color: rgb(71, 69, 69);
+    margin: 0 10px;
+}
+.menu-right a:hover
+{
+    color: rgb(145, 143, 143);
 }
 .bigBox
 {
