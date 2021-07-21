@@ -11,6 +11,9 @@ body
 {
     margin: 0;
     font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;
+    color: #111;
 }
 main header .header-top
 {
@@ -225,4 +228,67 @@ menu .menu-right
 {
     width: 24px;
     height: 24px;
+}
+.wrapper-footer
+{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    margin-bottom: 100px;
+    display: flex;
+}
+.wrapper-footer .firm-info
+{
+    width: 40%;
+    text-align: start;
+    padding-right: 50px;
+}
+
+.wrapper-footer .firm-info>div
+{
+    padding-right: 30px;
+}
+.wrapper-footer .firm-info img
+{
+    width: 100px;
+    height: 60px;
+}
+.wrapper-footer .footer-links
+{
+    width: 30%;
+    text-align: start;
+}
+.wrapper-footer .footer-links .linie
+{
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.wrapper-footer .footer-links .references
+{
+    margin: 10px 0 0 0;
+    font-weight: 400;
+}
+.wrapper-footer .footer-links a
+{
+    text-decoration: none;
+}
+.wrapper-footer .contact-information
+{
+    width: 30%;
+}
+.wrapper-footer .contact-information .linie
+{
+    width: 40%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.wrapper-footer .contact-information .margin
+{
+    margin: 10px 0 0 0;
+    font-weight: 400;
+}
+.wrapper-footer .footer-linie
+{
+    height: 1px;
+    width: 100%;
+    border: 1px solid black;
 }
