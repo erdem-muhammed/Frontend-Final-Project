@@ -180,6 +180,7 @@ menu .menu-right
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .wrapper-team>.card
 {
@@ -187,9 +188,11 @@ menu .menu-right
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid rgb(7, 7, 7);
-    width: 300px;
-    padding: 10px 10px;
+    border: 1px solid rgb(240, 233, 233);
+    width: 250px;
+    padding: 20px 20px;
+    background-color: #fff;
+    box-shadow: -2px 5px 12px 2px rgba(0,0,0,0.48);
 }
 .card span
 {
@@ -205,9 +208,21 @@ menu .menu-right
 {
     display: flex;
     justify-content: space-between;
+    width: 60%;
+    margin-top: 20px;
 }
-.card .logos>img
+.card>.name
 {
-    width: 16px;
-    height: 16px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.card>.position
+{
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.card .logos a>img
+{
+    width: 24px;
+    height: 24px;
 }
