@@ -10,7 +10,7 @@
 body
 {
     margin: 0;
-    font-family: 'Segoe UI';
+    font-family: "Montserrat";
     display: flex;
     flex-direction: column;
     color: #111;
@@ -229,13 +229,22 @@ menu .menu-right
     width: 24px;
     height: 24px;
 }
+.footer
+{
+    width: 100%;
+    background-color: rgb(250, 240, 240);
+    padding-bottom: 50px;
+    text-align: center;
+}
 .wrapper-footer
 {
     width: 1000px;
     margin: 0 auto;
-    background-color: blanchedalmond;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    border-bottom: 1px solid black;
 }
 .wrapper-footer .firm-info
 {
@@ -243,7 +252,6 @@ menu .menu-right
     text-align: start;
     padding-right: 50px;
 }
-
 .wrapper-footer .firm-info>div
 {
     padding-right: 30px;
@@ -275,6 +283,7 @@ menu .menu-right
 .wrapper-footer .contact-information
 {
     width: 30%;
+    text-align: start;
 }
 .wrapper-footer .contact-information .linie
 {
@@ -286,9 +295,8 @@ menu .menu-right
     margin: 10px 0 0 0;
     font-weight: 400;
 }
-.wrapper-footer .footer-linie
+.footer .copyRight
 {
-    height: 1px;
-    width: 100%;
-    border: 1px solid black;
+    font-size: 0.9em;
+    font-weight: 400;
 }
