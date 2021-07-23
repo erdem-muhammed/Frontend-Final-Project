@@ -2,6 +2,13 @@
 {
     box-sizing: border-box;
 }
+:root
+{
+    light: #DFDED6;
+    medium: #A8A79F;
+    dark: #005B4A;
+    back-ground: #F6F2CB;
+}
 body
 {
     margin: 0;
