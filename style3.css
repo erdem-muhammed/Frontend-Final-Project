@@ -48,7 +48,7 @@ body
     width: 450px;
     position: absolute;
     top: 30%;
-    right: 10%;
+    right: 8vw;
 }
 .info .contact
 {
@@ -135,6 +135,91 @@ body
 footer
 {
     width: 100vw;
-    height: 40vh;
     background-color: rgb(204, 187, 187);
+}
+footer .footer
+{
+    margin-left: 20vw;
+    width: 80vw;
+    padding-right: 8vw;
+    padding-top: 15vh;
+    padding-bottom: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer>div
+{
+    width: 30%;
+}
+.footer .column1
+{
+    text-align: start;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.footer .column1 .references
+{
+    margin-top: 3vh;
+}
+.footer .column1 .references a
+{
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
+.footer .column2 div
+{
+    margin-bottom: 10px;
+}
+.footer .column2 div a
+{
+    text-decoration: none;
+    color: #111;
+}
+.footer .column2 div a:hover
+{
+    color: var(--dark);
+}
+.footer .column3 .text
+{
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+.column3 .signUp input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px 15px 15px 0;
+    outline: none;
+    background-color: rgb(204, 187, 187);
+}
+.column3 .signUp input::placeholder
+{
+    color: #111;
+}
+.column3 .signUp button
+{
+    padding: 15px 18px;
+    background-color: rgb(204, 187, 187);
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+}
+.column3 .signUp button:hover
+{
+    background-color: black;
+    color: white;
+    transition: background-color ease-in-out 0.45s;
+    transition: color ease-in-out 0.45s;
+}
+.column3 .insta-LinkedIn
+{
+    display: flex;
+}
+.column3 .insta-LinkedIn img
+{
+    height: 36px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
