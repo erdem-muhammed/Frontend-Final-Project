@@ -12,11 +12,12 @@
 body
 {
     margin: 0;
+    color: #111;
 }
 .container
 {
     width: 100vw;
-    height: 120vh;
+    height: 125vh;
 }
 .container .content
 {
@@ -28,7 +29,7 @@ body
 {
     margin: 0;
     position: absolute;
-    top: 20vh;
+    top: 13vh;
     left: 6%;
     font-family: cursive;
     font-size: 2.5em;
@@ -68,7 +69,72 @@ body
 }
 .form>.bottom
 {
-    border: 1px solid black;
+    height: 1px;
     width: 100%;
-    margin-top: 5px;
+    background-color: black;
+    margin: 5px 0;
+}
+.info .form input
+{
+    border: none;
+    outline: none;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 0;
+    background-color: var(--back-ground);
+    color: black;
+}
+.form input::placeholder
+{
+    color: black;
+    opacity: 1;
+    font-weight: 600;
+}
+#message
+{
+    height: 100px;
+    padding: 0 0;
+}
+#message::placeholder
+{
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.info .form button
+{
+    margin-top: 40px;
+    font-size: 1.2em;
+    width: 12em;
+    padding: 0.7em 0;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: var(--back-ground);
+    border: 1px solid black;
+}
+.info .form button:hover
+{
+    background-color: black;
+    color: white;
+    transition: background-color ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
+}
+.locationContainer
+{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.locationContainer .location, .locationContainer .right-side
+{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+footer
+{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(204, 187, 187);
 }
