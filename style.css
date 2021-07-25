@@ -166,7 +166,7 @@ menu .menu-right
     .services-wrapper
     {
         font-size: 0.5em !important;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
     }
     .services-wrapper h3
     {
@@ -177,12 +177,28 @@ menu .menu-right
     {
         width: 80px !important;
         height: 80px !important;
+        margin: 0 auto;
     }
     .border-radius img
     {
         width: 40px !important;
         height: 40px !important;
     }
+    .team
+    {
+        font-size: 0.6em;
+        padding-bottom: 40px;
+        text-align: center !important;
+    }
+    .team h1
+    {
+        margin: 20px auto;
+    }
+    .card
+    {
+        margin: 0 auto 20px auto;
+    }
+
 }
 .services
 {
