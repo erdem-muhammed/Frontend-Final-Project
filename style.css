@@ -127,79 +127,6 @@ menu .menu-right
 {
     right: 3vw;
 }
-@media (max-width: 450px)
-{
-    header
-    {
-        margin: 0 auto !important;
-    }
-    .header-top
-    {
-        height: 6vh !important;
-    }
-    .header-wrapper
-    {
-        font-size: 0.5em !important;
-        justify-content: center !important;
-    }
-    #logo
-    {
-        width: 80px;
-        height: 30px;
-    }
-    menu .wrapper
-    {
-        justify-content: space-evenly;
-    }
-    .menu-right a
-    {
-        font-size: 0.6em;
-    } 
-    .bigBox i
-    {
-        font-size: 1em !important;
-    }
-    .services
-    {
-        display: block !important;
-    }
-    .services-wrapper
-    {
-        font-size: 0.5em !important;
-        margin: 0 auto 20px auto;
-    }
-    .services-wrapper h3
-    {
-        font-size: 0.8em;
-        margin-top: 15px;
-    }
-    .border-radius
-    {
-        width: 80px !important;
-        height: 80px !important;
-        margin: 0 auto;
-    }
-    .border-radius img
-    {
-        width: 40px !important;
-        height: 40px !important;
-    }
-    .team
-    {
-        font-size: 0.6em;
-        padding-bottom: 40px;
-        text-align: center !important;
-    }
-    .team h1
-    {
-        margin: 20px auto;
-    }
-    .card
-    {
-        margin: 0 auto 20px auto;
-    }
-
-}
 .services
 {
     max-width: 1000px;
@@ -312,7 +239,7 @@ menu .menu-right
 }
 .wrapper-footer
 {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
     display: flex;
@@ -373,4 +300,88 @@ menu .menu-right
 {
     font-size: 0.9em;
     font-weight: 400;
+}
+@media (max-width: 450px)
+{
+    header
+    {
+        margin: 0 auto !important;
+    }
+    .header-top
+    {
+        height: 6vh !important;
+    }
+    .header-wrapper
+    {
+        font-size: 0.5em !important;
+        justify-content: center !important;
+    }
+    #logo
+    {
+        width: 80px;
+        height: 30px;
+    }
+    menu .wrapper
+    {
+        justify-content: space-evenly;
+    }
+    .menu-right a
+    {
+        font-size: 0.6em;
+    } 
+    .bigBox i
+    {
+        font-size: 1em !important;
+    }
+    .services
+    {
+        display: block !important;
+    }
+    .services-wrapper
+    {
+        font-size: 0.5em !important;
+        margin: 0 auto 20px auto;
+    }
+    .services-wrapper h3
+    {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+    .border-radius
+    {
+        width: 80px !important;
+        height: 80px !important;
+        margin: 0 auto;
+    }
+    .border-radius img
+    {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .team
+    {
+        font-size: 0.6em;
+        padding-bottom: 40px;
+        text-align: center !important;
+    }
+    .team h1
+    {
+        margin: 20px auto;
+    }
+    .card
+    {
+        margin: 0 auto 20px auto;
+    }
+    .wrapper-footer
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 0.6em ;
+        align-items: center;
+    }
+    .firm-info
+    {
+        display: none;
+    }
+
 }
