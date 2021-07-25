@@ -543,10 +543,10 @@ menu .menu-right
     }
     .wrapper-footer
     {
-        flex-wrap: wrap;
-        flex-direction: column;
+        margin: 0 auto;
         font-size: 0.6em ;
-        align-items: center;
+        align-items: flex-start;
+        justify-content: center;
     }
     .firm-info
     {
