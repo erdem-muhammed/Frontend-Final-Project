@@ -11,8 +11,6 @@ body
 {
     margin: 0;
     font-family: "Montserrat";
-    display: flex;
-    flex-direction: column;
     color: #111;
 }
 main header .header-top
@@ -22,7 +20,7 @@ main header .header-top
 }
 .header-top>.header-wrapper
 {
-    width: 1000px;
+    max-width: 1000px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -42,7 +40,6 @@ main header .header-top
 header menu
 {
     display: flex;
-    justify-content: center;
 }
 menu>.wrapper
 {
@@ -50,6 +47,7 @@ menu>.wrapper
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 #logo
 {
@@ -59,7 +57,6 @@ menu>.wrapper
 }
 menu .menu-right
 {
-    
     display: flex;
     justify-content: space-between;
     padding: 0 10vw;
@@ -130,19 +127,76 @@ menu .menu-right
 {
     right: 3vw;
 }
+@media (max-width: 450px)
+{
+    header
+    {
+        margin: 0 auto !important;
+    }
+    .header-top
+    {
+        height: 6vh !important;
+    }
+    .header-wrapper
+    {
+        font-size: 0.5em !important;
+        justify-content: center !important;
+    }
+    #logo
+    {
+        width: 80px;
+        height: 30px;
+    }
+    menu .wrapper
+    {
+        justify-content: space-evenly;
+    }
+    .menu-right a
+    {
+        font-size: 0.6em;
+    } 
+    .bigBox i
+    {
+        font-size: 1em !important;
+    }
+    .services
+    {
+        display: block !important;
+    }
+    .services-wrapper
+    {
+        font-size: 0.5em !important;
+        margin-bottom: 20px;
+    }
+    .services-wrapper h3
+    {
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+    .border-radius
+    {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .border-radius img
+    {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
 .services
 {
-    width: 1000px;
+    max-width: 1000px;
     height: 300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
+    flex-wrap: wrap;
 }
 .services>.services-wrapper
 {
-    width: 300px;
-    text-align: center;
+    max-width: 300px;
 }
 .services-wrapper
 {
@@ -163,6 +217,10 @@ menu .menu-right
     box-shadow: -1px 9px 3px -1px rgb(57 57 57 / 55%);
     transition: transform 0.5s;
     cursor: pointer;
+}
+.services-text
+{
+    text-align: center;
 }
 .border-radius:hover
 {
