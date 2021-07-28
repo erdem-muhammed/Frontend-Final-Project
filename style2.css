@@ -9,22 +9,11 @@ body
     font-family: 'Rock Salt', cursive;
     color: #111;
 }
-
-header
-{
-    width: 100vw;
-    height: 25vh;
-    background-color: black;
-}
-.content
-{
-    width: 100vw;
-}
 .image-aboutUs
 {
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 .layout
@@ -37,14 +26,20 @@ header
     top: 0;
     left: 0;
 }
-
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
 .wrapper-content
 {
     width: 1000px;
-    margin: 0 auto;
-    position: relative;
+    position: absolute;
+    top: 30%;
 }
-.wrapper-content .text-container
+.wrapper-content>.text-container
 {
     line-height: 1.5em;
     font-weight: 300;
