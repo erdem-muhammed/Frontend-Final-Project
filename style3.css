@@ -18,19 +18,23 @@ body
 {
     width: 100vw;
     height: 125vh;
+    background-color: #F6F2CB;
 }
 .container .content
 {
-    width: 100%;
     height: 100%;
-    background-color: #F6F2CB;
+    position: relative;
+}
+.wrapper
+{
+    margin: 0 auto;
+    width: 1000px;
 }
 #volumeUp
 {
     margin: 0;
     position: absolute;
     top: 13vh;
-    left: 6%;
     font-family: cursive;
     font-size: 2.5em;
     font-weight: bold;
@@ -39,7 +43,6 @@ body
 {
     position: absolute;
     top: 55%;
-    left: 10%;
     line-height: 1.5em;
     font-size: 2em;
 }
@@ -48,7 +51,7 @@ body
     width: 450px;
     position: absolute;
     top: 30%;
-    right: 8vw;
+    right: 0;
 }
 .info .contact
 {
@@ -222,4 +225,120 @@ footer .footer
     height: 36px;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+@media (max-width: 1176px)
+{
+    .motto{
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+    .container
+    {
+        height: 150vh;
+    }
+}
+@media (max-width: 950px)
+{
+    .wrapper{
+        max-width: 800px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .motto{
+        display: none;
+    }
+    #volumeUp{
+        left: auto;
+        right: auto;
+    }
+    .content .info{
+        left: auto;
+        right: auto;
+        
+    }
+}
+@media (max-width: 768px)
+{
+    .wrapper{
+        max-width: 600px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .motto{
+        display: none;
+    }
+    #volumeUp{
+        left: auto;
+        right: auto;
+    }
+    .content .info{
+        left: auto;
+        right: auto;
+        
+    }
+    .right-side
+    {
+        display: none;
+    }
+    .location
+    {
+        width: 100% !important;
+    }
+}
+@media (max-width: 500px)
+{
+    .wrapper{
+        max-width: 400px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .motto{
+        display: none;
+    }
+    #volumeUp{
+        left: auto;
+        right: auto;
+    }
+    .content .info{
+        left: auto;
+        right: auto;
+        width: 300px;
+    }
+    .right-side
+    {
+        display: none;
+    }
+    .location
+    {
+        width: 100% !important;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .column1
+    {
+        width: 100% !important;
+        margin-bottom: 5vh;
+    }
+    .column2
+    {
+        width: 100% !important;
+        margin-bottom: 5vh;
+    }
+    .column3{
+        width: 100% !important;
+    }
 }
