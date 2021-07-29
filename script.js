@@ -29,3 +29,21 @@ function translateUpdate()
 {
     slider.style.transform = "translateX(-" + (current*100) + "vw)";
 }
+
+
+
+//////  Contact Form
+const submitButton = document.getElementById("submit");
+const inputAll = document.querySelector(".form").querySelectorAll("input");
+
+submitButton.onclick = function submit()
+{
+    for(var i = 0; i < inputAll.length; i++)
+    {
+        if(inputAll[i].value == "")
+        {
+        alert("Please fill all the fields!");
+        return;
+        }
+    }
+}
