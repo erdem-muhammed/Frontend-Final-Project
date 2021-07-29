@@ -45,5 +45,23 @@ submitButton.onclick = function submit()
         alert("Please fill all the fields!");
         return;
         }
+        else
+        {
+            inputAll.values = "";
+            return;
+        }
+        
+    }
+}
+
+const signupButton = document.querySelector(".signUp").querySelector("button");
+const inputSignup = document.querySelector(".signUp").querySelector("input");
+
+signupButton.onclick = function subscribe()
+{
+    if(inputSignup.value == "")
+    {
+        alert("please keep in touch with us!")
+        return;
     }
 }
