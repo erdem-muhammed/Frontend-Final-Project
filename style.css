@@ -15,7 +15,7 @@ body
 }
 main header .header-top
 {
-    background-color: rgb(119, 119, 126);
+    background-color: #457D80;
     height: 8vh;
 }
 .header-top>.header-wrapper
@@ -233,7 +233,7 @@ menu .menu-right
 .footer
 {
     width: 100%;
-    background-color: rgb(250, 240, 240);
+    background-color: #ffd4d4ba;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -545,7 +545,7 @@ menu .menu-right
     {
         margin: 0 auto;
         font-size: 0.6em ;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
     .firm-info

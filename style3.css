@@ -2,23 +2,18 @@
 {
     box-sizing: border-box;
 }
-:root
-{
-    light: #DFDED6;
-    medium: #A8A79F;
-    dark: #005B4A;
-    back-ground: #F6F2CB;
-}
+
 body
 {
     margin: 0;
     color: #111;
+    font-family: "Circular",sans-serif;
 }
 .container
 {
     width: 100vw;
     height: 125vh;
-    background-color: #F6F2CB;
+    background-color: #fcc8a6;
 }
 .container .content
 {
@@ -38,6 +33,7 @@ body
     font-family: cursive;
     font-size: 2.5em;
     font-weight: bold;
+    color: white;
 }
 .motto
 {
@@ -45,6 +41,7 @@ body
     top: 55%;
     line-height: 1.5em;
     font-size: 2em;
+    color: white;
 }
 .info
 {
@@ -138,7 +135,7 @@ body
 footer
 {
     width: 100vw;
-    background-color: rgb(204, 187, 187);
+    background-color: #EBEEF0;
 }
 footer .footer
 {
@@ -149,6 +146,7 @@ footer .footer
     padding-bottom: 30vh;
     display: flex;
     justify-content: space-between;
+    font-size: 0.9em;
 }
 .footer>div
 {
@@ -195,7 +193,7 @@ footer .footer
     border-right: none;
     padding: 15px 15px 15px 0;
     outline: none;
-    background-color: rgb(204, 187, 187);
+    background-color: #EBEEF0;
 }
 .column3 .signUp input::placeholder
 {
@@ -204,7 +202,7 @@ footer .footer
 .column3 .signUp button
 {
     padding: 15px 18px;
-    background-color: rgb(204, 187, 187);
+    background-color: #EBEEF0;
     cursor: pointer;
     outline: none;
     border: 1px solid black;
@@ -225,6 +223,7 @@ footer .footer
     height: 36px;
     margin-top: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 @media (max-width: 1176px)
