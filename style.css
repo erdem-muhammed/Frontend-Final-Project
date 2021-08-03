@@ -199,43 +199,54 @@ menu .menu-right
     box-shadow: -2px 5px 12px 2px rgba(0,0,0,0.48);
     transition: transform 2s;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
-.card span
+.card .front
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backface-visibility: hidden;
+}
+.card .front span
 {
     margin-top: 8px;
 }
-.card img
+.card .front img
 {
     height: 180px;
     width: 180px;
     border-radius: 50%;
 }
-.card .logos
+.card .front .logos
 {
     display: flex;
     justify-content: space-between;
     width: 60%;
     margin-top: 20px;
 }
-.card>.name
+.card .front .name
 {
     font-size: 1.3em;
     font-weight: 700;
 }
-.card>.position
+.card .front .position
 {
     font-size: 1.1em;
     font-weight: 300;
 }
-.card .logos a>img
+.card .front .logos a>img
 {
     width: 24px;
     height: 24px;
 }
-.card .curriculumVitae
+.card .back
 {
     transform: rotateY(180deg);
-    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    backface-visibility: hidden;
 }
 .footer
 {
